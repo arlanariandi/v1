@@ -29,19 +29,19 @@
               class="absolute right-4 block lg:hidden"
             >
               <span
-                class="my-2 block h-[2px] w-[30px] origin-top-left bg-slate-900 transition duration-300 ease-in-out"
+                class="my-2 block h-[2px] w-[30px] origin-top-left bg-slate-900 transition duration-300 ease-in-out dark:bg-white"
               ></span>
               <span
-                class="my-2 block h-[2px] w-[30px] bg-slate-900 transition duration-300 ease-in-out"
+                class="my-2 block h-[2px] w-[30px] bg-slate-900 transition duration-300 ease-in-out dark:bg-white"
               ></span>
               <span
-                class="my-2 block h-[2px] w-[30px] origin-bottom-left bg-slate-900 transition duration-300 ease-in-out"
+                class="my-2 block h-[2px] w-[30px] origin-bottom-left bg-slate-900 transition duration-300 ease-in-out dark:bg-white"
               ></span>
             </button>
 
             <nav
               id="nav-menu"
-              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none"
+              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-slate-900 dark:shadow-slate-600 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent"
             >
               <ul class="block lg:flex">
                 <li class="group">
@@ -92,7 +92,7 @@
                   >
                 </li>
 
-                <li class="flex items-center pl-8">
+                <li class="flex items-center py-3 pl-8">
                   <div class="flex">
                     <span class="mr-2 text-sm text-slate-500">light</span>
                     <input type="checkbox" class="hidden" id="dark-toggle" />
@@ -125,12 +125,15 @@
             <h1 class="text-base font-semibold text-teal-500 md:text-xl">
               Hello Semua 👋, saya
               <span
-                class="mt-1 block text-4xl font-bold text-slate-900 lg:text-5xl"
+                class="mt-1 block text-4xl font-bold text-slate-900 dark:text-white lg:text-5xl"
                 >Arlan Ariandi Trislis</span
               >
             </h1>
             <h2 class="mb-5 text-lg font-medium text-slate-500">
-              Teacher & <span class="text-slate-900">Fullstack Developer</span>
+              Teacher &
+              <span class="text-slate-900 dark:text-white"
+                >Fullstack Developer</span
+              >
             </h2>
             <p class="mb-10 font-medium leading-relaxed text-slate-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -151,10 +154,10 @@
               <img
                 src="dist/img/profile.png"
                 alt="Arlan Ariandi Trislis"
-                class="mx-auto max-w-full"
+                class="relative z-10 mx-auto max-w-full"
               />
               <span
-                class="absolute -bottom-0 left-1/2 -z-10 -translate-x-1/2 md:scale-125"
+                class="absolute -bottom-0 left-1/2 -translate-x-1/2 md:scale-125"
               >
                 <svg
                   widht="400"
