@@ -775,6 +775,10 @@ video {
   max-width: 36rem;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .origin-bottom-left {
   transform-origin: bottom left;
 }
